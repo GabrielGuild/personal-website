@@ -53,7 +53,7 @@ function App() {
       <div className="navbar">
         <h4>Gabriel Guild</h4>
       <ul className={isActive}>
-        <NavLink exact to='/home' className='navlink' activeClassName="active">
+        <NavLink exact to='/' className='navlink' activeClassName="active">
           Home
         </NavLink>
         <NavLink exact to='/about' className='navlink' activeClassName="active">
@@ -73,7 +73,7 @@ function App() {
     </div>
       </div>
       <Routes>
-       <Route path="/Home" element={<Home/>} />
+       <Route path="/" element={<Home/>} />
        <Route path="/About" element={<About/>} />
        <Route path="/Experience" element={<Experience/>} />
        <Route path="/Contact" element={<Contact/>}/>
