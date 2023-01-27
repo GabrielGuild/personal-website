@@ -1,12 +1,14 @@
-import Spline from '@splinetool/react-spline';
 import React from "react";
+import dynamic from 'next/dynamic';
+
+const SplineWrapper = dynamic(import('./SplineWrapper'));
 
 const Home =() => {
-return (
-      <div className='animation'>
-            <Spline scene="https://prod.spline.design/BQtH-7V91u1IBrSV/scene.splinecode" />
-      </div>
-  
-)
+  return (
+    <div className='animation'>
+      <SplineWrapper />
+    </div>
+  )
 }
+
 export default Home;
