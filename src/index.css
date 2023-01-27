@@ -7,6 +7,12 @@ body {
   background-color: rgb(43, 37, 37);
   color: white;
 }
+.animation{
+  position: absolute;
+  top:5rem;
+  height: 100%;
+  width: 100%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -23,6 +29,7 @@ code {
   top: 0;
   flex-direction: row;
   justify-content: space-between;
+  background-color: transparent;
 }
 main{
   margin-top: 15rem;
