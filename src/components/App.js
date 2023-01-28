@@ -12,10 +12,6 @@ import {
     Experience,
     Contact
 } from "./index.js";
-import twitter from '../icons/black twitter logo.png';
-import instagram from '../icons/black insta logo.png'
-import facebook from '../icons/black facebook icon.png'
-import ticktock from '../icons/black tic toc icon.png'
 
 
 
